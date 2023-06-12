@@ -40,14 +40,32 @@
             text-align: center;
             display: inline-block;
             font-size: 20px;
-            margin: 10px 30px;
+            margin: 30px 100px;
             cursor: crosshair;
+
+        }
+        #inner
+        {
+            font-size: 10px;
+        }
+        #outer
+        {
+            font-size: 25px;
         }
     </style>
 </head>
 
 <body>
-
+<nav class="navbar">
+   <div class="menu">
+    <div class="menu links> 
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+    </div>
+   </div>
+</nav>
     <h1 id="head1">CSS Tutorial</h1>
     <h2 class="heading">Heading 2</h2>
     <h3 class="heading">Heading 3</h3>
@@ -65,10 +83,13 @@
         ab a nisi quisquam cumque nulla magni error hic, esse quasi, praesentium assumenda accusantium asperiores saepe
         exercitationem id ipsum obcaecati fugit incidunt numquam corporis. Modi unde voluptas nihil dolorem quos error
         eius distinctio. Cumque, culpa! Vitae, doloribus consectetur.</p>
+        <div id="outer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, illum.
+            <div id="inner">Lorem ipsum dolor sit amet.</div>
+        </div>
         <hr> ̰
 
     <button class="GFG" 
-    onclick="window.location.href = 'https://ide.geeksforgeeks.org';">Click Here!
+    onclick="window.location.href = 'https://ide.geeksforgeeks.org';" target="_blank">Click Here!
     </button>
     <div id="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quas!</div>
 </body>
